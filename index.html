@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lírica — synced lyrics</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-mode="scroll" data-align="left" data-header="tl">
+
+  <!-- Background -->
+  <div id="bg" data-mode="cover">
+    <div id="bg-cover"><canvas></canvas><canvas></canvas></div>
+    <div id="bg-ambient"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div></div>
+    <canvas id="bg-scene"></canvas>
+    <div id="bg-media"><img alt=""><img alt=""></div>
+    <video id="bg-video" muted loop playsinline></video>
+    <div id="bg-tint"></div>
+    <div id="bg-dim"></div>
+    <div id="bg-vignette"></div>
+    <div id="bg-grain"></div>
+    <div id="bg-idle"></div>
+  </div>
+
+  <!-- Song info -->
+  <header id="info">
+    <div id="cover-wrap"><img id="cover" alt=""><span id="pause-badge" aria-hidden="true"><i></i><i></i></span></div>
+    <div id="meta">
+      <div id="title"></div>
+      <div id="artist"></div>
+      <div id="sync-chip"></div>
+      <div id="progress"><div id="progress-fill"></div></div>
+      <div id="times"><span id="t-cur">0:00</span><span id="t-dur">0:00</span></div>
+    </div>
+  </header>
+
+  <!-- Lyrics -->
+  <main id="stage">
+    <div id="stage-backdrop"></div>
+    <div id="lyrics"><div id="lyrics-track"></div></div>
+    <div id="focus"></div>
+    <div id="status"></div>
+    <div id="plain-badge"></div>
+  </main>
+
+  <!-- Idle -->
+  <section id="idle">
+    <div id="idle-box">
+      <div id="greeting"></div>
+      <div id="clock-time"></div>
+      <div id="clock-date"></div>
+      <div id="last-played"></div>
+      <div id="nolyr-why"></div>
+      <div id="setup-card"></div>
+      <div id="idle-hint"></div>
+    </div>
+  </section>
+  <div id="miniclock"></div>
+
+  <!-- Per-song sync (appears on mouse move) -->
+  <div id="syncbar" aria-label="sync">
+    <span class="lbl" id="sync-label">Sync</span>
+    <button data-d="-500">−0.5</button><button data-d="-100">−0.1</button>
+    <span id="sync-val">0.00 s</span>
+    <button data-d="100">+0.1</button><button data-d="500">+0.5</button>
+    <button data-d="reset" class="reset">⟲</button>
+  </div>
+  <div id="toast"></div>
+  <div id="fontsheet"></div>
+
+  <pre id="debug"></pre>
+
+  <!-- Order matters: settings and sources register immediately (Wallpaper Engine requirement) -->
+  <script src="js/schema.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/sources/wallpaper-engine.js"></script>
+  <script src="js/sources/demo.js"></script>
+  <script src="js/lyrics.js"></script>
+  <script src="js/scenes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

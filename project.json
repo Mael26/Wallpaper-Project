@@ -1,0 +1,2306 @@
+{
+  "contentrating": "Everyone",
+  "description": "Synced lyrics for whatever you are playing (Spotify, YouTube Music, Apple Music…) via Windows media integration + LRCLIB. Fully customizable.",
+  "file": "index.html",
+  "general": {
+    "localization": {
+      "en-us": {
+        "ui_lirica_theme": "Theme",
+        "ui_lirica_theme_custom": "None (my settings)",
+        "ui_lirica_theme_synthwave": "Synthwave karaoke",
+        "ui_lirica_theme_animefocus": "Anime sky",
+        "ui_lirica_theme_sakura": "Sakura script",
+        "ui_lirica_theme_minimalglass": "Minimal glass",
+        "ui_lirica_theme_lofinight": "Lo-fi night",
+        "ui_lirica_theme_neonpixel": "Neon pixel",
+        "ui_lirica_theme_gothic": "Gothic",
+        "ui_lirica_theme_minibar": "Mini bar",
+        "ui_lirica_mode": "Lyrics style",
+        "ui_lirica_mode_scroll": "Scroll",
+        "ui_lirica_mode_focus": "One line",
+        "ui_lirica_font": "Font",
+        "ui_lirica_font_system": "System · Segoe UI",
+        "ui_lirica_font_custom": "Installed font",
+        "ui_lirica_bgmode": "Background",
+        "ui_lirica_bgmode_cover": "Album art (blurred)",
+        "ui_lirica_bgmode_scene": "Animated scene",
+        "ui_lirica_bgmode_ambient": "Gradient",
+        "ui_lirica_bgmode_image": "My image",
+        "ui_lirica_bgmode_video": "My video",
+        "ui_lirica_bgmode_folder": "Image folder",
+        "ui_lirica_bgmode_solid": "Solid color",
+        "ui_lirica_bgscene": "Scene",
+        "ui_lirica_bgscene_nightsky": "Night sky",
+        "ui_lirica_bgscene_rain": "Rain",
+        "ui_lirica_bgscene_animesky": "Anime sky",
+        "ui_lirica_bgscene_neoncity": "Neon city",
+        "ui_lirica_bgscene_ocean": "Ocean",
+        "ui_lirica_bgscene_koi": "Koi pond",
+        "ui_lirica_bgimage": "Image",
+        "ui_lirica_bgfolder": "Image folder",
+        "ui_lirica_bgcolor": "Background color",
+        "ui_lirica_language": "Language",
+        "ui_lirica_language_auto": "Auto (system)",
+        "ui_lirica_grplyrics": "<h4>Lyrics options</h4>",
+        "ui_lirica_focusanim": "Line entrance",
+        "ui_lirica_focusanim_rise": "Rise",
+        "ui_lirica_focusanim_fade": "Fade",
+        "ui_lirica_focusanim_blur": "Blur",
+        "ui_lirica_focusanim_words": "Word by word",
+        "ui_lirica_focusanim_typewriter": "Typewriter",
+        "ui_lirica_shownext": "Show next line",
+        "ui_lirica_align": "Text alignment",
+        "ui_lirica_align_left": "Left",
+        "ui_lirica_align_center": "Center",
+        "ui_lirica_align_right": "Right",
+        "ui_lirica_nolyrics": "When no lyrics",
+        "ui_lirica_nolyrics_clock": "Show clock",
+        "ui_lirica_nolyrics_background": "Background only",
+        "ui_lirica_nolyrics_message": "Show message",
+        "ui_lirica_showbreaks": "Instrumental breaks",
+        "ui_lirica_breakstyle": "Break marker",
+        "ui_lirica_breakstyle_font": "Font dots",
+        "ui_lirica_breakstyle_dots": "Circles",
+        "ui_lirica_breakstyle_notes": "Music notes",
+        "ui_lirica_breakstyle_bars": "Equalizer",
+        "ui_lirica_transition": "Animation duration (ms)",
+        "ui_lirica_stagger": "Wave effect",
+        "ui_lirica_activescale": "Current line size (%)",
+        "ui_lirica_inactiveopacity": "Other lines opacity (%)",
+        "ui_lirica_distanceblur": "Other lines blur",
+        "ui_lirica_grptype": "<h4>Text options</h4>",
+        "ui_lirica_fontpreview": "Preview all fonts",
+        "ui_lirica_customfont": "Installed font name",
+        "ui_lirica_fontsize": "Text size (%)",
+        "ui_lirica_fontweight": "Font weight",
+        "ui_lirica_uppercase": "Uppercase",
+        "ui_lirica_lineheight": "Line height (%)",
+        "ui_lirica_linegap": "Space between lines (%)",
+        "ui_lirica_letterspacing": "Letter spacing",
+        "ui_lirica_glow": "Glow",
+        "ui_lirica_shadow": "Shadow",
+        "ui_lirica_outline": "Outline width",
+        "ui_lirica_grpcolor": "<h4>Color options</h4>",
+        "ui_lirica_lyriccolor": "Lyrics color",
+        "ui_lirica_lyriccolor_solid": "Solid color",
+        "ui_lirica_lyriccolor_song": "Song colors",
+        "ui_lirica_lyriccolor_gradient": "Song gradient",
+        "ui_lirica_textcolor": "Text color",
+        "ui_lirica_colorstrength": "Color strength (%)",
+        "ui_lirica_adaptive": "Auto highlight color",
+        "ui_lirica_accentcolor": "Highlight color",
+        "ui_lirica_colorsource": "Take colors from",
+        "ui_lirica_colorsource_album": "Album art",
+        "ui_lirica_colorsource_background": "Background",
+        "ui_lirica_outlinecolor": "Outline color",
+        "ui_lirica_grpbg": "<h4>Background options</h4>",
+        "ui_lirica_scenecolors": "Scene colors",
+        "ui_lirica_scenecolors_album": "Album art",
+        "ui_lirica_scenespeed": "Scene speed (%)",
+        "ui_lirica_scenebrightness": "Scene brightness (%)",
+        "ui_lirica_scenequality": "Scene quality",
+        "ui_lirica_scenequality_low": "Low",
+        "ui_lirica_scenequality_medium": "Medium",
+        "ui_lirica_scenequality_high": "High",
+        "ui_lirica_bginterval": "Change every (min)",
+        "ui_lirica_bgfit": "Image fit",
+        "ui_lirica_bgfit_cover": "Fill",
+        "ui_lirica_bgfit_contain": "Fit",
+        "ui_lirica_bgfit_fill": "Stretch",
+        "ui_lirica_bgfit_none": "Original size",
+        "ui_lirica_mediabrightness": "Image brightness (%)",
+        "ui_lirica_mediablur": "Image blur",
+        "ui_lirica_mediatint": "Album color tint (%)",
+        "ui_lirica_bgposx": "Image position X (%)",
+        "ui_lirica_bgposy": "Image position Y (%)",
+        "ui_lirica_bgbrightness": "Background brightness (%)",
+        "ui_lirica_bgblur": "Album art blur",
+        "ui_lirica_bgsaturation": "Saturation (%)",
+        "ui_lirica_bgmotion": "Slow movement",
+        "ui_lirica_vignette": "Vignette",
+        "ui_lirica_grain": "Film grain",
+        "ui_lirica_grparea": "<h4>Layout options</h4>",
+        "ui_lirica_area": "Lyrics area",
+        "ui_lirica_area_full": "Full screen",
+        "ui_lirica_area_left": "Left half",
+        "ui_lirica_area_right": "Right half",
+        "ui_lirica_area_center": "Center",
+        "ui_lirica_area_top": "Top half",
+        "ui_lirica_area_bottom": "Bottom half",
+        "ui_lirica_area_custom": "Custom",
+        "ui_lirica_areax": "Area X (%)",
+        "ui_lirica_areay": "Area Y (%)",
+        "ui_lirica_areaw": "Area width (%)",
+        "ui_lirica_areah": "Area height (%)",
+        "ui_lirica_backdrop": "Lyrics backdrop",
+        "ui_lirica_backdrop_none": "None",
+        "ui_lirica_backdrop_shadow": "Soft shadow",
+        "ui_lirica_backdrop_glass": "Frosted glass",
+        "ui_lirica_backdrop_panel": "Dark panel",
+        "ui_lirica_backdropstrength": "Backdrop strength (%)",
+        "ui_lirica_backdropradius": "Backdrop corners",
+        "ui_lirica_anchor": "Current line position (%)",
+        "ui_lirica_maxwidth": "Text width (%)",
+        "ui_lirica_edgefade": "Edge fade (%)",
+        "ui_lirica_grpinfo": "<h4>Song info options</h4>",
+        "ui_lirica_header": "Info position",
+        "ui_lirica_header_tl": "Top left",
+        "ui_lirica_header_tc": "Top center",
+        "ui_lirica_header_tr": "Top right",
+        "ui_lirica_header_bl": "Bottom left",
+        "ui_lirica_header_bc": "Bottom center",
+        "ui_lirica_header_br": "Bottom right",
+        "ui_lirica_header_hidden": "Hidden",
+        "ui_lirica_headersize": "Info size (%)",
+        "ui_lirica_showcover": "Show album art",
+        "ui_lirica_showprogress": "Show progress bar",
+        "ui_lirica_showtime": "Show time",
+        "ui_lirica_cleantitles": "Clean up titles",
+        "ui_lirica_grpclock": "<h4>Clock options</h4>",
+        "ui_lirica_idle": "When nothing plays",
+        "ui_lirica_idle_clock": "Show clock",
+        "ui_lirica_idle_blank": "Background only",
+        "ui_lirica_clockstyle": "Clock style",
+        "ui_lirica_clockstyle_thin": "Thin",
+        "ui_lirica_clockstyle_bold": "Bold",
+        "ui_lirica_clockstyle_outline": "Outline",
+        "ui_lirica_clockstyle_stacked": "Stacked",
+        "ui_lirica_clockstyle_retro": "Retro pixel",
+        "ui_lirica_clockstyle_gothic": "Gothic",
+        "ui_lirica_clockstyle_lyricfont": "Lyrics font",
+        "ui_lirica_clocksize": "Clock size (%)",
+        "ui_lirica_clockpos": "Clock position",
+        "ui_lirica_clockpos_c": "Center",
+        "ui_lirica_clockpos_tl": "Top left",
+        "ui_lirica_clockpos_tc": "Top center",
+        "ui_lirica_clockpos_tr": "Top right",
+        "ui_lirica_clockpos_ml": "Middle left",
+        "ui_lirica_clockpos_mr": "Middle right",
+        "ui_lirica_clockpos_bl": "Bottom left",
+        "ui_lirica_clockpos_bc": "Bottom center",
+        "ui_lirica_clockpos_br": "Bottom right",
+        "ui_lirica_clockcolor": "Clock color",
+        "ui_lirica_clockcolor_text": "Text color",
+        "ui_lirica_clockcolor_accent": "Song color",
+        "ui_lirica_clockcolor_custom": "Custom color",
+        "ui_lirica_clockcustomcolor": "Pick clock color",
+        "ui_lirica_clockcard": "Clock backdrop",
+        "ui_lirica_clockcard_none": "None",
+        "ui_lirica_clockcard_shadow": "Soft shadow",
+        "ui_lirica_clockcard_glass": "Frosted glass",
+        "ui_lirica_clockcard_panel": "Dark panel",
+        "ui_lirica_clock24": "24-hour clock",
+        "ui_lirica_clockseconds": "Show seconds",
+        "ui_lirica_clockblink": "Blinking colon",
+        "ui_lirica_dateformat": "Date format",
+        "ui_lirica_dateformat_long": "Long",
+        "ui_lirica_dateformat_short": "Short",
+        "ui_lirica_dateformat_numeric": "Numeric",
+        "ui_lirica_dateformat_none": "Hidden",
+        "ui_lirica_greeting": "Greeting",
+        "ui_lirica_greeting_none": "None",
+        "ui_lirica_greeting_auto": "By time of day",
+        "ui_lirica_greeting_custom": "Custom text",
+        "ui_lirica_greetingtext": "Greeting text",
+        "ui_lirica_lastplayed": "Show song name",
+        "ui_lirica_idlebg": "Clock background",
+        "ui_lirica_idlebg_same": "Same as playing",
+        "ui_lirica_idlebg_scene": "Animated scene",
+        "ui_lirica_idlebg_image": "My image",
+        "ui_lirica_idlebg_video": "My video",
+        "ui_lirica_idlebg_folder": "Image folder",
+        "ui_lirica_idlebg_solid": "Solid color",
+        "ui_lirica_idlescene": "Clock scene",
+        "ui_lirica_idlescene_nightsky": "Night sky",
+        "ui_lirica_idlescene_rain": "Rain",
+        "ui_lirica_idlescene_animesky": "Anime sky",
+        "ui_lirica_idlescene_neoncity": "Neon city",
+        "ui_lirica_idlescene_ocean": "Ocean",
+        "ui_lirica_idlescene_koi": "Koi pond",
+        "ui_lirica_idleimage": "Clock image",
+        "ui_lirica_idlevideo": "Clock video",
+        "ui_lirica_idlefolder": "Clock image folder",
+        "ui_lirica_idlecolor": "Clock background color",
+        "ui_lirica_idleblur": "Background blur",
+        "ui_lirica_idledim": "Background dim (%)",
+        "ui_lirica_idleafter": "Clock after pause (min)",
+        "ui_lirica_miniclock": "Mini clock",
+        "ui_lirica_miniclock_off": "Off",
+        "ui_lirica_miniclock_tl": "Top left",
+        "ui_lirica_miniclock_tr": "Top right",
+        "ui_lirica_miniclock_bl": "Bottom left",
+        "ui_lirica_miniclock_br": "Bottom right",
+        "ui_lirica_grpsync": "<h4>Sync options</h4>",
+        "ui_lirica_syncoffset": "Global offset (ms)",
+        "ui_lirica_songsync": "Per-song sync",
+        "ui_lirica_songsync_hover": "On hover",
+        "ui_lirica_songsync_off": "Off",
+        "ui_lirica_leadtime": "Animation lead (ms)",
+        "ui_lirica_grpadv": "<h4>Advanced options</h4>",
+        "ui_lirica_onlinelookup": "Search lyrics online",
+        "ui_lirica_videominutes": "Skip if longer than (min)",
+        "ui_lirica_source": "Music source",
+        "ui_lirica_debug": "Debug panel"
+      },
+      "es-es": {
+        "ui_lirica_theme": "Tema",
+        "ui_lirica_theme_custom": "Ninguno (mis ajustes)",
+        "ui_lirica_theme_synthwave": "Karaoke synthwave",
+        "ui_lirica_theme_animefocus": "Cielo anime",
+        "ui_lirica_theme_sakura": "Sakura caligráfico",
+        "ui_lirica_theme_minimalglass": "Vidrio minimalista",
+        "ui_lirica_theme_lofinight": "Noche lo-fi",
+        "ui_lirica_theme_neonpixel": "Neón pixel",
+        "ui_lirica_theme_gothic": "Gótico",
+        "ui_lirica_theme_minibar": "Mini barra",
+        "ui_lirica_mode": "Estilo de letra",
+        "ui_lirica_mode_scroll": "Lista",
+        "ui_lirica_mode_focus": "Una línea",
+        "ui_lirica_font": "Fuente",
+        "ui_lirica_font_system": "Sistema · Segoe UI",
+        "ui_lirica_font_custom": "Fuente instalada",
+        "ui_lirica_bgmode": "Fondo",
+        "ui_lirica_bgmode_cover": "Portada difuminada",
+        "ui_lirica_bgmode_scene": "Escena animada",
+        "ui_lirica_bgmode_ambient": "Degradado",
+        "ui_lirica_bgmode_image": "Imagen propia",
+        "ui_lirica_bgmode_video": "Video propio",
+        "ui_lirica_bgmode_folder": "Carpeta de imágenes",
+        "ui_lirica_bgmode_solid": "Color sólido",
+        "ui_lirica_bgscene": "Escena",
+        "ui_lirica_bgscene_nightsky": "Cielo nocturno",
+        "ui_lirica_bgscene_rain": "Lluvia",
+        "ui_lirica_bgscene_animesky": "Cielo anime",
+        "ui_lirica_bgscene_neoncity": "Ciudad neón",
+        "ui_lirica_bgscene_ocean": "Océano",
+        "ui_lirica_bgscene_koi": "Estanque koi",
+        "ui_lirica_bgimage": "Imagen",
+        "ui_lirica_bgfolder": "Carpeta de imágenes",
+        "ui_lirica_bgcolor": "Color de fondo",
+        "ui_lirica_language": "Idioma",
+        "ui_lirica_language_auto": "Automático (sistema)",
+        "ui_lirica_grplyrics": "<h4>Opciones de letra</h4>",
+        "ui_lirica_focusanim": "Entrada de línea",
+        "ui_lirica_focusanim_rise": "Subir",
+        "ui_lirica_focusanim_fade": "Fundido",
+        "ui_lirica_focusanim_blur": "Desenfoque",
+        "ui_lirica_focusanim_words": "Palabra por palabra",
+        "ui_lirica_focusanim_typewriter": "Máquina de escribir",
+        "ui_lirica_shownext": "Mostrar siguiente línea",
+        "ui_lirica_align": "Alineación del texto",
+        "ui_lirica_align_left": "Izquierda",
+        "ui_lirica_align_center": "Centro",
+        "ui_lirica_align_right": "Derecha",
+        "ui_lirica_nolyrics": "Si no hay letra",
+        "ui_lirica_nolyrics_clock": "Mostrar reloj",
+        "ui_lirica_nolyrics_background": "Solo el fondo",
+        "ui_lirica_nolyrics_message": "Mostrar mensaje",
+        "ui_lirica_showbreaks": "Pausas instrumentales",
+        "ui_lirica_breakstyle": "Marca de pausa",
+        "ui_lirica_breakstyle_font": "Puntos de la fuente",
+        "ui_lirica_breakstyle_dots": "Círculos",
+        "ui_lirica_breakstyle_notes": "Notas musicales",
+        "ui_lirica_breakstyle_bars": "Ecualizador",
+        "ui_lirica_transition": "Duración de animación (ms)",
+        "ui_lirica_stagger": "Efecto ola",
+        "ui_lirica_activescale": "Tamaño línea actual (%)",
+        "ui_lirica_inactiveopacity": "Opacidad otras líneas (%)",
+        "ui_lirica_distanceblur": "Desenfoque otras líneas",
+        "ui_lirica_grptype": "<h4>Opciones de texto</h4>",
+        "ui_lirica_fontpreview": "Ver todas las fuentes",
+        "ui_lirica_customfont": "Nombre de la fuente",
+        "ui_lirica_fontsize": "Tamaño del texto (%)",
+        "ui_lirica_fontweight": "Grosor de fuente",
+        "ui_lirica_uppercase": "Mayúsculas",
+        "ui_lirica_lineheight": "Interlineado (%)",
+        "ui_lirica_linegap": "Espacio entre versos (%)",
+        "ui_lirica_letterspacing": "Espaciado de letras",
+        "ui_lirica_glow": "Resplandor",
+        "ui_lirica_shadow": "Sombra",
+        "ui_lirica_outline": "Grosor del contorno",
+        "ui_lirica_grpcolor": "<h4>Opciones de color</h4>",
+        "ui_lirica_lyriccolor": "Color de la letra",
+        "ui_lirica_lyriccolor_solid": "Color sólido",
+        "ui_lirica_lyriccolor_song": "Colores de la canción",
+        "ui_lirica_lyriccolor_gradient": "Degradado de la canción",
+        "ui_lirica_textcolor": "Color del texto",
+        "ui_lirica_colorstrength": "Intensidad del color (%)",
+        "ui_lirica_adaptive": "Resaltado automático",
+        "ui_lirica_accentcolor": "Color de resaltado",
+        "ui_lirica_colorsource": "Tomar colores de",
+        "ui_lirica_colorsource_album": "Portada",
+        "ui_lirica_colorsource_background": "Fondo",
+        "ui_lirica_outlinecolor": "Color del contorno",
+        "ui_lirica_grpbg": "<h4>Opciones de fondo</h4>",
+        "ui_lirica_scenecolors": "Colores de la escena",
+        "ui_lirica_scenecolors_album": "Portada",
+        "ui_lirica_scenespeed": "Velocidad de escena (%)",
+        "ui_lirica_scenebrightness": "Brillo de escena (%)",
+        "ui_lirica_scenequality": "Calidad de escena",
+        "ui_lirica_scenequality_low": "Baja",
+        "ui_lirica_scenequality_medium": "Media",
+        "ui_lirica_scenequality_high": "Alta",
+        "ui_lirica_bginterval": "Cambiar cada (min)",
+        "ui_lirica_bgfit": "Ajuste de imagen",
+        "ui_lirica_bgfit_cover": "Rellenar",
+        "ui_lirica_bgfit_contain": "Ajustar",
+        "ui_lirica_bgfit_fill": "Estirar",
+        "ui_lirica_bgfit_none": "Tamaño original",
+        "ui_lirica_mediabrightness": "Brillo de imagen (%)",
+        "ui_lirica_mediablur": "Desenfoque de imagen",
+        "ui_lirica_mediatint": "Tinte de portada (%)",
+        "ui_lirica_bgposx": "Posición X de imagen (%)",
+        "ui_lirica_bgposy": "Posición Y de imagen (%)",
+        "ui_lirica_bgbrightness": "Brillo del fondo (%)",
+        "ui_lirica_bgblur": "Desenfoque de portada",
+        "ui_lirica_bgsaturation": "Saturación (%)",
+        "ui_lirica_bgmotion": "Movimiento lento",
+        "ui_lirica_vignette": "Viñeta",
+        "ui_lirica_grain": "Grano de película",
+        "ui_lirica_grparea": "<h4>Opciones de posición</h4>",
+        "ui_lirica_area": "Zona de la letra",
+        "ui_lirica_area_full": "Pantalla completa",
+        "ui_lirica_area_left": "Mitad izquierda",
+        "ui_lirica_area_right": "Mitad derecha",
+        "ui_lirica_area_center": "Centro",
+        "ui_lirica_area_top": "Mitad superior",
+        "ui_lirica_area_bottom": "Mitad inferior",
+        "ui_lirica_area_custom": "Personalizada",
+        "ui_lirica_areax": "Zona X (%)",
+        "ui_lirica_areay": "Zona Y (%)",
+        "ui_lirica_areaw": "Ancho de zona (%)",
+        "ui_lirica_areah": "Alto de zona (%)",
+        "ui_lirica_backdrop": "Recuadro de la letra",
+        "ui_lirica_backdrop_none": "Ninguno",
+        "ui_lirica_backdrop_shadow": "Sombra suave",
+        "ui_lirica_backdrop_glass": "Vidrio esmerilado",
+        "ui_lirica_backdrop_panel": "Panel oscuro",
+        "ui_lirica_backdropstrength": "Intensidad del recuadro (%)",
+        "ui_lirica_backdropradius": "Esquinas del recuadro",
+        "ui_lirica_anchor": "Posición línea actual (%)",
+        "ui_lirica_maxwidth": "Ancho del texto (%)",
+        "ui_lirica_edgefade": "Difuminado de bordes (%)",
+        "ui_lirica_grpinfo": "<h4>Opciones de canción</h4>",
+        "ui_lirica_header": "Posición de la info",
+        "ui_lirica_header_tl": "Arriba izquierda",
+        "ui_lirica_header_tc": "Arriba centro",
+        "ui_lirica_header_tr": "Arriba derecha",
+        "ui_lirica_header_bl": "Abajo izquierda",
+        "ui_lirica_header_bc": "Abajo centro",
+        "ui_lirica_header_br": "Abajo derecha",
+        "ui_lirica_header_hidden": "Oculta",
+        "ui_lirica_headersize": "Tamaño de la info (%)",
+        "ui_lirica_showcover": "Mostrar portada",
+        "ui_lirica_showprogress": "Mostrar barra de progreso",
+        "ui_lirica_showtime": "Mostrar tiempo",
+        "ui_lirica_cleantitles": "Limpiar títulos",
+        "ui_lirica_grpclock": "<h4>Opciones de reloj</h4>",
+        "ui_lirica_idle": "Si no suena nada",
+        "ui_lirica_idle_clock": "Mostrar reloj",
+        "ui_lirica_idle_blank": "Solo el fondo",
+        "ui_lirica_clockstyle": "Estilo del reloj",
+        "ui_lirica_clockstyle_thin": "Fino",
+        "ui_lirica_clockstyle_bold": "Grueso",
+        "ui_lirica_clockstyle_outline": "Contorno",
+        "ui_lirica_clockstyle_stacked": "Apilado",
+        "ui_lirica_clockstyle_retro": "Pixel retro",
+        "ui_lirica_clockstyle_gothic": "Gótico",
+        "ui_lirica_clockstyle_lyricfont": "Fuente de la letra",
+        "ui_lirica_clocksize": "Tamaño del reloj (%)",
+        "ui_lirica_clockpos": "Posición del reloj",
+        "ui_lirica_clockpos_c": "Centro",
+        "ui_lirica_clockpos_tl": "Arriba izquierda",
+        "ui_lirica_clockpos_tc": "Arriba centro",
+        "ui_lirica_clockpos_tr": "Arriba derecha",
+        "ui_lirica_clockpos_ml": "Centro izquierda",
+        "ui_lirica_clockpos_mr": "Centro derecha",
+        "ui_lirica_clockpos_bl": "Abajo izquierda",
+        "ui_lirica_clockpos_bc": "Abajo centro",
+        "ui_lirica_clockpos_br": "Abajo derecha",
+        "ui_lirica_clockcolor": "Color del reloj",
+        "ui_lirica_clockcolor_text": "Color del texto",
+        "ui_lirica_clockcolor_accent": "Color de la canción",
+        "ui_lirica_clockcolor_custom": "Color propio",
+        "ui_lirica_clockcustomcolor": "Elegir color del reloj",
+        "ui_lirica_clockcard": "Recuadro del reloj",
+        "ui_lirica_clockcard_none": "Ninguno",
+        "ui_lirica_clockcard_shadow": "Sombra suave",
+        "ui_lirica_clockcard_glass": "Vidrio esmerilado",
+        "ui_lirica_clockcard_panel": "Panel oscuro",
+        "ui_lirica_clock24": "Formato 24 horas",
+        "ui_lirica_clockseconds": "Mostrar segundos",
+        "ui_lirica_clockblink": "Dos puntos parpadeantes",
+        "ui_lirica_dateformat": "Formato de fecha",
+        "ui_lirica_dateformat_long": "Larga",
+        "ui_lirica_dateformat_short": "Corta",
+        "ui_lirica_dateformat_numeric": "Numérica",
+        "ui_lirica_dateformat_none": "Oculta",
+        "ui_lirica_greeting": "Saludo",
+        "ui_lirica_greeting_none": "Ninguno",
+        "ui_lirica_greeting_auto": "Según la hora",
+        "ui_lirica_greeting_custom": "Texto propio",
+        "ui_lirica_greetingtext": "Texto del saludo",
+        "ui_lirica_lastplayed": "Mostrar canción",
+        "ui_lirica_idlebg": "Fondo del reloj",
+        "ui_lirica_idlebg_same": "Igual que con música",
+        "ui_lirica_idlebg_scene": "Escena animada",
+        "ui_lirica_idlebg_image": "Imagen propia",
+        "ui_lirica_idlebg_video": "Video propio",
+        "ui_lirica_idlebg_folder": "Carpeta de imágenes",
+        "ui_lirica_idlebg_solid": "Color sólido",
+        "ui_lirica_idlescene": "Escena del reloj",
+        "ui_lirica_idlescene_nightsky": "Cielo nocturno",
+        "ui_lirica_idlescene_rain": "Lluvia",
+        "ui_lirica_idlescene_animesky": "Cielo anime",
+        "ui_lirica_idlescene_neoncity": "Ciudad neón",
+        "ui_lirica_idlescene_ocean": "Océano",
+        "ui_lirica_idlescene_koi": "Estanque koi",
+        "ui_lirica_idleimage": "Imagen del reloj",
+        "ui_lirica_idlevideo": "Video del reloj",
+        "ui_lirica_idlefolder": "Carpeta del reloj",
+        "ui_lirica_idlecolor": "Color de fondo del reloj",
+        "ui_lirica_idleblur": "Desenfoque del fondo",
+        "ui_lirica_idledim": "Oscurecer fondo (%)",
+        "ui_lirica_idleafter": "Reloj tras pausa (min)",
+        "ui_lirica_miniclock": "Reloj pequeño",
+        "ui_lirica_miniclock_off": "Apagado",
+        "ui_lirica_miniclock_tl": "Arriba izquierda",
+        "ui_lirica_miniclock_tr": "Arriba derecha",
+        "ui_lirica_miniclock_bl": "Abajo izquierda",
+        "ui_lirica_miniclock_br": "Abajo derecha",
+        "ui_lirica_grpsync": "<h4>Opciones de sincronía</h4>",
+        "ui_lirica_syncoffset": "Desfase global (ms)",
+        "ui_lirica_songsync": "Sincronía por canción",
+        "ui_lirica_songsync_hover": "Al pasar el ratón",
+        "ui_lirica_songsync_off": "Apagado",
+        "ui_lirica_leadtime": "Anticipación (ms)",
+        "ui_lirica_grpadv": "<h4>Opciones avanzadas</h4>",
+        "ui_lirica_onlinelookup": "Buscar letras en línea",
+        "ui_lirica_videominutes": "Omitir si dura más de (min)",
+        "ui_lirica_source": "Origen de la música",
+        "ui_lirica_debug": "Panel de diagnóstico"
+      }
+    },
+    "properties": {
+      "schemecolor": {
+        "order": 999,
+        "text": "ui_browse_properties_scheme_color",
+        "type": "color",
+        "value": "0.55 0.85 1"
+      },
+      "theme": {
+        "order": 100,
+        "text": "ui_lirica_theme",
+        "type": "combo",
+        "value": "custom",
+        "options": [
+          {
+            "label": "ui_lirica_theme_custom",
+            "value": "custom"
+          },
+          {
+            "label": "ui_lirica_theme_synthwave",
+            "value": "synthwave"
+          },
+          {
+            "label": "ui_lirica_theme_animefocus",
+            "value": "animefocus"
+          },
+          {
+            "label": "ui_lirica_theme_sakura",
+            "value": "sakura"
+          },
+          {
+            "label": "ui_lirica_theme_minimalglass",
+            "value": "minimalglass"
+          },
+          {
+            "label": "ui_lirica_theme_lofinight",
+            "value": "lofinight"
+          },
+          {
+            "label": "ui_lirica_theme_neonpixel",
+            "value": "neonpixel"
+          },
+          {
+            "label": "ui_lirica_theme_gothic",
+            "value": "gothic"
+          },
+          {
+            "label": "ui_lirica_theme_minibar",
+            "value": "minibar"
+          }
+        ]
+      },
+      "mode": {
+        "order": 101,
+        "text": "ui_lirica_mode",
+        "type": "combo",
+        "value": "scroll",
+        "options": [
+          {
+            "label": "ui_lirica_mode_scroll",
+            "value": "scroll"
+          },
+          {
+            "label": "Karaoke",
+            "value": "karaoke"
+          },
+          {
+            "label": "ui_lirica_mode_focus",
+            "value": "focus"
+          }
+        ]
+      },
+      "font": {
+        "order": 102,
+        "text": "ui_lirica_font",
+        "type": "combo",
+        "value": "inter",
+        "options": [
+          {
+            "label": "Sans · Inter",
+            "value": "inter"
+          },
+          {
+            "label": "Sans · Outfit",
+            "value": "outfit"
+          },
+          {
+            "label": "Sans · Space Grotesk",
+            "value": "spacegrotesk"
+          },
+          {
+            "label": "Sans · Syne",
+            "value": "syne"
+          },
+          {
+            "label": "Sans · Unbounded",
+            "value": "unbounded"
+          },
+          {
+            "label": "Display · Bebas Neue",
+            "value": "bebas"
+          },
+          {
+            "label": "Display · Anton",
+            "value": "anton"
+          },
+          {
+            "label": "Display · Archivo Black",
+            "value": "archivoblack"
+          },
+          {
+            "label": "Serif · Playfair Display",
+            "value": "playfair"
+          },
+          {
+            "label": "Serif · Fraunces",
+            "value": "fraunces"
+          },
+          {
+            "label": "Serif · Cinzel",
+            "value": "cinzel"
+          },
+          {
+            "label": "Serif · Cormorant Garamond",
+            "value": "cormorant"
+          },
+          {
+            "label": "Serif · DM Serif Display",
+            "value": "dmserif"
+          },
+          {
+            "label": "Serif · Abril Fatface",
+            "value": "abrilfatface"
+          },
+          {
+            "label": "Serif · IM Fell (old print)",
+            "value": "imfell"
+          },
+          {
+            "label": "Retro · Righteous",
+            "value": "righteous"
+          },
+          {
+            "label": "Retro · Shrikhand (70s)",
+            "value": "shrikhand"
+          },
+          {
+            "label": "Retro · Monoton (neon)",
+            "value": "monoton"
+          },
+          {
+            "label": "Retro · Bungee",
+            "value": "bungee"
+          },
+          {
+            "label": "Retro · Audiowide",
+            "value": "audiowide"
+          },
+          {
+            "label": "Retro · Orbitron (sci-fi)",
+            "value": "orbitron"
+          },
+          {
+            "label": "Retro · Lobster",
+            "value": "lobster"
+          },
+          {
+            "label": "Retro · Pacifico",
+            "value": "pacifico"
+          },
+          {
+            "label": "Pixel · Press Start 2P",
+            "value": "pressstart"
+          },
+          {
+            "label": "Pixel · VT323 (terminal)",
+            "value": "vt323"
+          },
+          {
+            "label": "Pixel · Silkscreen",
+            "value": "silkscreen"
+          },
+          {
+            "label": "Pixel · Pixelify Sans",
+            "value": "pixelify"
+          },
+          {
+            "label": "Pixel · Major Mono",
+            "value": "majormono"
+          },
+          {
+            "label": "Pixel · Rubik Glitch",
+            "value": "rubikglitch"
+          },
+          {
+            "label": "Gothic · UnifrakturMaguntia",
+            "value": "unifraktur"
+          },
+          {
+            "label": "Gothic · UnifrakturCook",
+            "value": "unifrakturcook"
+          },
+          {
+            "label": "Gothic · Pirata One",
+            "value": "pirataone"
+          },
+          {
+            "label": "Gothic · Grenze Gotisch",
+            "value": "grenze"
+          },
+          {
+            "label": "Gothic · Jacquard 24 (pixel)",
+            "value": "jacquard"
+          },
+          {
+            "label": "Gothic · New Rocker",
+            "value": "newrocker"
+          },
+          {
+            "label": "Gothic · Metal Mania",
+            "value": "metalmania"
+          },
+          {
+            "label": "Horror · Creepster",
+            "value": "creepster"
+          },
+          {
+            "label": "Horror · Nosifer",
+            "value": "nosifer"
+          },
+          {
+            "label": "Horror · Butcherman",
+            "value": "butcherman"
+          },
+          {
+            "label": "Horror · Eater",
+            "value": "eater"
+          },
+          {
+            "label": "Hand · Caveat",
+            "value": "caveat"
+          },
+          {
+            "label": "Hand · Permanent Marker",
+            "value": "permanentmarker"
+          },
+          {
+            "label": "Hand · Rock Salt",
+            "value": "rocksalt"
+          },
+          {
+            "label": "Script · Dancing Script",
+            "value": "dancingscript"
+          },
+          {
+            "label": "Script · Great Vibes",
+            "value": "greatvibes"
+          },
+          {
+            "label": "Mono · JetBrains Mono",
+            "value": "jetbrains"
+          },
+          {
+            "label": "Mono · Space Mono",
+            "value": "spacemono"
+          },
+          {
+            "label": "ui_lirica_font_system",
+            "value": "system"
+          },
+          {
+            "label": "ui_lirica_font_custom",
+            "value": "custom"
+          }
+        ]
+      },
+      "bgmode": {
+        "order": 103,
+        "text": "ui_lirica_bgmode",
+        "type": "combo",
+        "value": "cover",
+        "options": [
+          {
+            "label": "ui_lirica_bgmode_cover",
+            "value": "cover"
+          },
+          {
+            "label": "ui_lirica_bgmode_scene",
+            "value": "scene"
+          },
+          {
+            "label": "ui_lirica_bgmode_ambient",
+            "value": "ambient"
+          },
+          {
+            "label": "ui_lirica_bgmode_image",
+            "value": "image"
+          },
+          {
+            "label": "ui_lirica_bgmode_video",
+            "value": "video"
+          },
+          {
+            "label": "ui_lirica_bgmode_folder",
+            "value": "folder"
+          },
+          {
+            "label": "ui_lirica_bgmode_solid",
+            "value": "solid"
+          }
+        ]
+      },
+      "bgscene": {
+        "order": 104,
+        "text": "ui_lirica_bgscene",
+        "type": "combo",
+        "value": "synthwave",
+        "options": [
+          {
+            "label": "Synthwave",
+            "value": "synthwave"
+          },
+          {
+            "label": "ui_lirica_bgscene_nightsky",
+            "value": "nightsky"
+          },
+          {
+            "label": "Aurora",
+            "value": "aurora"
+          },
+          {
+            "label": "Sakura",
+            "value": "sakura"
+          },
+          {
+            "label": "ui_lirica_bgscene_rain",
+            "value": "rain"
+          },
+          {
+            "label": "ui_lirica_bgscene_animesky",
+            "value": "animesky"
+          },
+          {
+            "label": "ui_lirica_bgscene_neoncity",
+            "value": "neoncity"
+          },
+          {
+            "label": "ui_lirica_bgscene_ocean",
+            "value": "ocean"
+          },
+          {
+            "label": "ui_lirica_bgscene_koi",
+            "value": "koi"
+          }
+        ],
+        "condition": "bgmode.value == 'scene'"
+      },
+      "bgimage": {
+        "order": 105,
+        "text": "ui_lirica_bgimage",
+        "type": "file",
+        "value": "",
+        "fileType": "image",
+        "condition": "bgmode.value == 'image'"
+      },
+      "bgvideo": {
+        "order": 106,
+        "text": "Video",
+        "type": "file",
+        "value": "",
+        "fileType": "video",
+        "condition": "bgmode.value == 'video'"
+      },
+      "bgfolder": {
+        "order": 107,
+        "text": "ui_lirica_bgfolder",
+        "type": "directory",
+        "value": "",
+        "mode": "ondemand",
+        "condition": "bgmode.value == 'folder'"
+      },
+      "bgcolor": {
+        "order": 108,
+        "text": "ui_lirica_bgcolor",
+        "type": "color",
+        "value": "0.04 0.04 0.05",
+        "condition": "bgmode.value == 'solid'"
+      },
+      "language": {
+        "order": 109,
+        "text": "ui_lirica_language",
+        "type": "combo",
+        "value": "auto",
+        "options": [
+          {
+            "label": "ui_lirica_language_auto",
+            "value": "auto"
+          },
+          {
+            "label": "English",
+            "value": "en"
+          },
+          {
+            "label": "Español",
+            "value": "es"
+          }
+        ]
+      },
+      "grplyrics": {
+        "order": 110,
+        "text": "ui_lirica_grplyrics",
+        "type": "bool",
+        "value": false
+      },
+      "focusanim": {
+        "order": 111,
+        "text": "ui_lirica_focusanim",
+        "type": "combo",
+        "value": "rise",
+        "options": [
+          {
+            "label": "ui_lirica_focusanim_rise",
+            "value": "rise"
+          },
+          {
+            "label": "ui_lirica_focusanim_fade",
+            "value": "fade"
+          },
+          {
+            "label": "ui_lirica_focusanim_blur",
+            "value": "blur"
+          },
+          {
+            "label": "Zoom",
+            "value": "zoom"
+          },
+          {
+            "label": "ui_lirica_focusanim_words",
+            "value": "words"
+          },
+          {
+            "label": "ui_lirica_focusanim_typewriter",
+            "value": "typewriter"
+          }
+        ],
+        "condition": "grplyrics.value == true && mode.value == 'focus'"
+      },
+      "shownext": {
+        "order": 112,
+        "text": "ui_lirica_shownext",
+        "type": "bool",
+        "value": true,
+        "condition": "grplyrics.value == true && mode.value == 'focus'"
+      },
+      "align": {
+        "order": 113,
+        "text": "ui_lirica_align",
+        "type": "combo",
+        "value": "left",
+        "options": [
+          {
+            "label": "ui_lirica_align_left",
+            "value": "left"
+          },
+          {
+            "label": "ui_lirica_align_center",
+            "value": "center"
+          },
+          {
+            "label": "ui_lirica_align_right",
+            "value": "right"
+          }
+        ],
+        "condition": "grplyrics.value == true"
+      },
+      "nolyrics": {
+        "order": 114,
+        "text": "ui_lirica_nolyrics",
+        "type": "combo",
+        "value": "clock",
+        "options": [
+          {
+            "label": "ui_lirica_nolyrics_clock",
+            "value": "clock"
+          },
+          {
+            "label": "ui_lirica_nolyrics_background",
+            "value": "background"
+          },
+          {
+            "label": "ui_lirica_nolyrics_message",
+            "value": "message"
+          }
+        ],
+        "condition": "grplyrics.value == true"
+      },
+      "showbreaks": {
+        "order": 115,
+        "text": "ui_lirica_showbreaks",
+        "type": "bool",
+        "value": true,
+        "condition": "grplyrics.value == true"
+      },
+      "breakstyle": {
+        "order": 116,
+        "text": "ui_lirica_breakstyle",
+        "type": "combo",
+        "value": "font",
+        "options": [
+          {
+            "label": "ui_lirica_breakstyle_font",
+            "value": "font"
+          },
+          {
+            "label": "ui_lirica_breakstyle_dots",
+            "value": "dots"
+          },
+          {
+            "label": "ui_lirica_breakstyle_notes",
+            "value": "notes"
+          },
+          {
+            "label": "ui_lirica_breakstyle_bars",
+            "value": "bars"
+          }
+        ],
+        "condition": "grplyrics.value == true && showbreaks.value == true"
+      },
+      "transition": {
+        "order": 117,
+        "text": "ui_lirica_transition",
+        "type": "slider",
+        "value": 600,
+        "min": 150,
+        "max": 1600,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grplyrics.value == true"
+      },
+      "stagger": {
+        "order": 118,
+        "text": "ui_lirica_stagger",
+        "type": "bool",
+        "value": true,
+        "condition": "grplyrics.value == true && mode.value != 'focus'"
+      },
+      "activescale": {
+        "order": 119,
+        "text": "ui_lirica_activescale",
+        "type": "slider",
+        "value": 104,
+        "min": 100,
+        "max": 125,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grplyrics.value == true"
+      },
+      "inactiveopacity": {
+        "order": 120,
+        "text": "ui_lirica_inactiveopacity",
+        "type": "slider",
+        "value": 32,
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grplyrics.value == true"
+      },
+      "distanceblur": {
+        "order": 121,
+        "text": "ui_lirica_distanceblur",
+        "type": "slider",
+        "value": 15,
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grplyrics.value == true"
+      },
+      "grptype": {
+        "order": 122,
+        "text": "ui_lirica_grptype",
+        "type": "bool",
+        "value": false
+      },
+      "fontpreview": {
+        "order": 123,
+        "text": "ui_lirica_fontpreview",
+        "type": "bool",
+        "value": false,
+        "condition": "grptype.value == true"
+      },
+      "customfont": {
+        "order": 124,
+        "text": "ui_lirica_customfont",
+        "type": "textinput",
+        "value": "",
+        "condition": "grptype.value == true && font.value == 'custom'"
+      },
+      "fontsize": {
+        "order": 125,
+        "text": "ui_lirica_fontsize",
+        "type": "slider",
+        "value": 100,
+        "min": 40,
+        "max": 260,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "fontweight": {
+        "order": 126,
+        "text": "ui_lirica_fontweight",
+        "type": "slider",
+        "value": 750,
+        "min": 100,
+        "max": 900,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "uppercase": {
+        "order": 127,
+        "text": "ui_lirica_uppercase",
+        "type": "bool",
+        "value": false,
+        "condition": "grptype.value == true"
+      },
+      "lineheight": {
+        "order": 128,
+        "text": "ui_lirica_lineheight",
+        "type": "slider",
+        "value": 122,
+        "min": 80,
+        "max": 200,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "linegap": {
+        "order": 129,
+        "text": "ui_lirica_linegap",
+        "type": "slider",
+        "value": 55,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "letterspacing": {
+        "order": 130,
+        "text": "ui_lirica_letterspacing",
+        "type": "slider",
+        "value": -1,
+        "min": -8,
+        "max": 30,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "glow": {
+        "order": 131,
+        "text": "ui_lirica_glow",
+        "type": "slider",
+        "value": 35,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "shadow": {
+        "order": 132,
+        "text": "ui_lirica_shadow",
+        "type": "slider",
+        "value": 25,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "outline": {
+        "order": 133,
+        "text": "ui_lirica_outline",
+        "type": "slider",
+        "value": 0,
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grptype.value == true"
+      },
+      "grpcolor": {
+        "order": 134,
+        "text": "ui_lirica_grpcolor",
+        "type": "bool",
+        "value": false
+      },
+      "lyriccolor": {
+        "order": 135,
+        "text": "ui_lirica_lyriccolor",
+        "type": "combo",
+        "value": "solid",
+        "options": [
+          {
+            "label": "ui_lirica_lyriccolor_solid",
+            "value": "solid"
+          },
+          {
+            "label": "ui_lirica_lyriccolor_song",
+            "value": "song"
+          },
+          {
+            "label": "ui_lirica_lyriccolor_gradient",
+            "value": "gradient"
+          }
+        ],
+        "condition": "grpcolor.value == true"
+      },
+      "textcolor": {
+        "order": 136,
+        "text": "ui_lirica_textcolor",
+        "type": "color",
+        "value": "1 1 1",
+        "condition": "grpcolor.value == true && lyriccolor.value == 'solid'"
+      },
+      "colorstrength": {
+        "order": 137,
+        "text": "ui_lirica_colorstrength",
+        "type": "slider",
+        "value": 70,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpcolor.value == true && lyriccolor.value != 'solid'"
+      },
+      "adaptive": {
+        "order": 138,
+        "text": "ui_lirica_adaptive",
+        "type": "bool",
+        "value": true,
+        "condition": "grpcolor.value == true"
+      },
+      "accentcolor": {
+        "order": 139,
+        "text": "ui_lirica_accentcolor",
+        "type": "color",
+        "value": "0.55 0.85 1",
+        "condition": "grpcolor.value == true && adaptive.value == false"
+      },
+      "colorsource": {
+        "order": 140,
+        "text": "ui_lirica_colorsource",
+        "type": "combo",
+        "value": "album",
+        "options": [
+          {
+            "label": "ui_lirica_colorsource_album",
+            "value": "album"
+          },
+          {
+            "label": "ui_lirica_colorsource_background",
+            "value": "background"
+          }
+        ],
+        "condition": "grpcolor.value == true"
+      },
+      "outlinecolor": {
+        "order": 141,
+        "text": "ui_lirica_outlinecolor",
+        "type": "color",
+        "value": "0 0 0",
+        "condition": "grpcolor.value == true"
+      },
+      "grpbg": {
+        "order": 142,
+        "text": "ui_lirica_grpbg",
+        "type": "bool",
+        "value": false
+      },
+      "scenecolors": {
+        "order": 143,
+        "text": "ui_lirica_scenecolors",
+        "type": "combo",
+        "value": "scene",
+        "options": [
+          {
+            "label": "Original",
+            "value": "scene"
+          },
+          {
+            "label": "ui_lirica_scenecolors_album",
+            "value": "album"
+          }
+        ],
+        "condition": "grpbg.value == true && bgmode.value == 'scene'"
+      },
+      "scenespeed": {
+        "order": 144,
+        "text": "ui_lirica_scenespeed",
+        "type": "slider",
+        "value": 100,
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value == 'scene'"
+      },
+      "scenebrightness": {
+        "order": 145,
+        "text": "ui_lirica_scenebrightness",
+        "type": "slider",
+        "value": 90,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value == 'scene'"
+      },
+      "scenequality": {
+        "order": 146,
+        "text": "ui_lirica_scenequality",
+        "type": "combo",
+        "value": "medium",
+        "options": [
+          {
+            "label": "ui_lirica_scenequality_low",
+            "value": "low"
+          },
+          {
+            "label": "ui_lirica_scenequality_medium",
+            "value": "medium"
+          },
+          {
+            "label": "ui_lirica_scenequality_high",
+            "value": "high"
+          }
+        ],
+        "condition": "grpbg.value == true && bgmode.value == 'scene'"
+      },
+      "bginterval": {
+        "order": 147,
+        "text": "ui_lirica_bginterval",
+        "type": "slider",
+        "value": 10,
+        "min": 1,
+        "max": 120,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value == 'folder'"
+      },
+      "bgfit": {
+        "order": 148,
+        "text": "ui_lirica_bgfit",
+        "type": "combo",
+        "value": "cover",
+        "options": [
+          {
+            "label": "ui_lirica_bgfit_cover",
+            "value": "cover"
+          },
+          {
+            "label": "ui_lirica_bgfit_contain",
+            "value": "contain"
+          },
+          {
+            "label": "ui_lirica_bgfit_fill",
+            "value": "fill"
+          },
+          {
+            "label": "ui_lirica_bgfit_none",
+            "value": "none"
+          }
+        ],
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "mediabrightness": {
+        "order": 149,
+        "text": "ui_lirica_mediabrightness",
+        "type": "slider",
+        "value": 80,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "mediablur": {
+        "order": 150,
+        "text": "ui_lirica_mediablur",
+        "type": "slider",
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "mediatint": {
+        "order": 151,
+        "text": "ui_lirica_mediatint",
+        "type": "slider",
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "bgposx": {
+        "order": 152,
+        "text": "ui_lirica_bgposx",
+        "type": "slider",
+        "value": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "bgposy": {
+        "order": 153,
+        "text": "ui_lirica_bgposy",
+        "type": "slider",
+        "value": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'cover' && bgmode.value != 'ambient' && bgmode.value != 'solid' && bgmode.value != 'scene'"
+      },
+      "bgbrightness": {
+        "order": 154,
+        "text": "ui_lirica_bgbrightness",
+        "type": "slider",
+        "value": 42,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value != 'image' && bgmode.value != 'folder' && bgmode.value != 'video' && bgmode.value != 'scene'"
+      },
+      "bgblur": {
+        "order": 155,
+        "text": "ui_lirica_bgblur",
+        "type": "slider",
+        "value": 55,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true && bgmode.value == 'cover'"
+      },
+      "bgsaturation": {
+        "order": 156,
+        "text": "ui_lirica_bgsaturation",
+        "type": "slider",
+        "value": 140,
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true"
+      },
+      "bgmotion": {
+        "order": 157,
+        "text": "ui_lirica_bgmotion",
+        "type": "bool",
+        "value": true,
+        "condition": "grpbg.value == true"
+      },
+      "vignette": {
+        "order": 158,
+        "text": "ui_lirica_vignette",
+        "type": "slider",
+        "value": 45,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true"
+      },
+      "grain": {
+        "order": 159,
+        "text": "ui_lirica_grain",
+        "type": "slider",
+        "value": 6,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpbg.value == true"
+      },
+      "grparea": {
+        "order": 160,
+        "text": "ui_lirica_grparea",
+        "type": "bool",
+        "value": false
+      },
+      "area": {
+        "order": 161,
+        "text": "ui_lirica_area",
+        "type": "combo",
+        "value": "auto",
+        "options": [
+          {
+            "label": "Auto",
+            "value": "auto"
+          },
+          {
+            "label": "ui_lirica_area_full",
+            "value": "full"
+          },
+          {
+            "label": "ui_lirica_area_left",
+            "value": "left"
+          },
+          {
+            "label": "ui_lirica_area_right",
+            "value": "right"
+          },
+          {
+            "label": "ui_lirica_area_center",
+            "value": "center"
+          },
+          {
+            "label": "ui_lirica_area_top",
+            "value": "top"
+          },
+          {
+            "label": "ui_lirica_area_bottom",
+            "value": "bottom"
+          },
+          {
+            "label": "ui_lirica_area_custom",
+            "value": "custom"
+          }
+        ],
+        "condition": "grparea.value == true"
+      },
+      "areax": {
+        "order": 162,
+        "text": "ui_lirica_areax",
+        "type": "slider",
+        "value": 10,
+        "min": 0,
+        "max": 95,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && area.value == 'custom'"
+      },
+      "areay": {
+        "order": 163,
+        "text": "ui_lirica_areay",
+        "type": "slider",
+        "value": 15,
+        "min": 0,
+        "max": 95,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && area.value == 'custom'"
+      },
+      "areaw": {
+        "order": 164,
+        "text": "ui_lirica_areaw",
+        "type": "slider",
+        "value": 80,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && area.value == 'custom'"
+      },
+      "areah": {
+        "order": 165,
+        "text": "ui_lirica_areah",
+        "type": "slider",
+        "value": 70,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && area.value == 'custom'"
+      },
+      "backdrop": {
+        "order": 166,
+        "text": "ui_lirica_backdrop",
+        "type": "combo",
+        "value": "none",
+        "options": [
+          {
+            "label": "ui_lirica_backdrop_none",
+            "value": "none"
+          },
+          {
+            "label": "ui_lirica_backdrop_shadow",
+            "value": "shadow"
+          },
+          {
+            "label": "ui_lirica_backdrop_glass",
+            "value": "glass"
+          },
+          {
+            "label": "ui_lirica_backdrop_panel",
+            "value": "panel"
+          }
+        ],
+        "condition": "grparea.value == true"
+      },
+      "backdropstrength": {
+        "order": 167,
+        "text": "ui_lirica_backdropstrength",
+        "type": "slider",
+        "value": 60,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && backdrop.value != 'none'"
+      },
+      "backdropradius": {
+        "order": 168,
+        "text": "ui_lirica_backdropradius",
+        "type": "slider",
+        "value": 24,
+        "min": 0,
+        "max": 80,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && backdrop.value != 'none' && backdrop.value != 'shadow'"
+      },
+      "anchor": {
+        "order": 169,
+        "text": "ui_lirica_anchor",
+        "type": "slider",
+        "value": 42,
+        "min": 15,
+        "max": 80,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true && mode.value != 'focus'"
+      },
+      "maxwidth": {
+        "order": 170,
+        "text": "ui_lirica_maxwidth",
+        "type": "slider",
+        "value": 90,
+        "min": 30,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true"
+      },
+      "edgefade": {
+        "order": 171,
+        "text": "ui_lirica_edgefade",
+        "type": "slider",
+        "value": 14,
+        "min": 0,
+        "max": 35,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grparea.value == true"
+      },
+      "grpinfo": {
+        "order": 172,
+        "text": "ui_lirica_grpinfo",
+        "type": "bool",
+        "value": false
+      },
+      "header": {
+        "order": 173,
+        "text": "ui_lirica_header",
+        "type": "combo",
+        "value": "tl",
+        "options": [
+          {
+            "label": "ui_lirica_header_tl",
+            "value": "tl"
+          },
+          {
+            "label": "ui_lirica_header_tc",
+            "value": "tc"
+          },
+          {
+            "label": "ui_lirica_header_tr",
+            "value": "tr"
+          },
+          {
+            "label": "ui_lirica_header_bl",
+            "value": "bl"
+          },
+          {
+            "label": "ui_lirica_header_bc",
+            "value": "bc"
+          },
+          {
+            "label": "ui_lirica_header_br",
+            "value": "br"
+          },
+          {
+            "label": "ui_lirica_header_hidden",
+            "value": "hidden"
+          }
+        ],
+        "condition": "grpinfo.value == true"
+      },
+      "headersize": {
+        "order": 174,
+        "text": "ui_lirica_headersize",
+        "type": "slider",
+        "value": 100,
+        "min": 50,
+        "max": 220,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpinfo.value == true && header.value != 'hidden'"
+      },
+      "showcover": {
+        "order": 175,
+        "text": "ui_lirica_showcover",
+        "type": "bool",
+        "value": true,
+        "condition": "grpinfo.value == true && header.value != 'hidden'"
+      },
+      "showprogress": {
+        "order": 176,
+        "text": "ui_lirica_showprogress",
+        "type": "bool",
+        "value": true,
+        "condition": "grpinfo.value == true && header.value != 'hidden'"
+      },
+      "showtime": {
+        "order": 177,
+        "text": "ui_lirica_showtime",
+        "type": "bool",
+        "value": false,
+        "condition": "grpinfo.value == true && header.value != 'hidden'"
+      },
+      "cleantitles": {
+        "order": 178,
+        "text": "ui_lirica_cleantitles",
+        "type": "bool",
+        "value": true,
+        "condition": "grpinfo.value == true"
+      },
+      "grpclock": {
+        "order": 179,
+        "text": "ui_lirica_grpclock",
+        "type": "bool",
+        "value": false
+      },
+      "idle": {
+        "order": 180,
+        "text": "ui_lirica_idle",
+        "type": "combo",
+        "value": "clock",
+        "options": [
+          {
+            "label": "ui_lirica_idle_clock",
+            "value": "clock"
+          },
+          {
+            "label": "ui_lirica_idle_blank",
+            "value": "blank"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "clockstyle": {
+        "order": 181,
+        "text": "ui_lirica_clockstyle",
+        "type": "combo",
+        "value": "thin",
+        "options": [
+          {
+            "label": "ui_lirica_clockstyle_thin",
+            "value": "thin"
+          },
+          {
+            "label": "ui_lirica_clockstyle_bold",
+            "value": "bold"
+          },
+          {
+            "label": "ui_lirica_clockstyle_outline",
+            "value": "outline"
+          },
+          {
+            "label": "ui_lirica_clockstyle_stacked",
+            "value": "stacked"
+          },
+          {
+            "label": "Serif",
+            "value": "serif"
+          },
+          {
+            "label": "Digital (LCD)",
+            "value": "digital"
+          },
+          {
+            "label": "ui_lirica_clockstyle_retro",
+            "value": "retro"
+          },
+          {
+            "label": "ui_lirica_clockstyle_gothic",
+            "value": "gothic"
+          },
+          {
+            "label": "ui_lirica_clockstyle_lyricfont",
+            "value": "lyricfont"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "clocksize": {
+        "order": 182,
+        "text": "ui_lirica_clocksize",
+        "type": "slider",
+        "value": 100,
+        "min": 30,
+        "max": 300,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpclock.value == true"
+      },
+      "clockpos": {
+        "order": 183,
+        "text": "ui_lirica_clockpos",
+        "type": "combo",
+        "value": "c",
+        "options": [
+          {
+            "label": "ui_lirica_clockpos_c",
+            "value": "c"
+          },
+          {
+            "label": "ui_lirica_clockpos_tl",
+            "value": "tl"
+          },
+          {
+            "label": "ui_lirica_clockpos_tc",
+            "value": "tc"
+          },
+          {
+            "label": "ui_lirica_clockpos_tr",
+            "value": "tr"
+          },
+          {
+            "label": "ui_lirica_clockpos_ml",
+            "value": "ml"
+          },
+          {
+            "label": "ui_lirica_clockpos_mr",
+            "value": "mr"
+          },
+          {
+            "label": "ui_lirica_clockpos_bl",
+            "value": "bl"
+          },
+          {
+            "label": "ui_lirica_clockpos_bc",
+            "value": "bc"
+          },
+          {
+            "label": "ui_lirica_clockpos_br",
+            "value": "br"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "clockcolor": {
+        "order": 184,
+        "text": "ui_lirica_clockcolor",
+        "type": "combo",
+        "value": "text",
+        "options": [
+          {
+            "label": "ui_lirica_clockcolor_text",
+            "value": "text"
+          },
+          {
+            "label": "ui_lirica_clockcolor_accent",
+            "value": "accent"
+          },
+          {
+            "label": "ui_lirica_clockcolor_custom",
+            "value": "custom"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "clockcustomcolor": {
+        "order": 185,
+        "text": "ui_lirica_clockcustomcolor",
+        "type": "color",
+        "value": "1 0.85 0.6",
+        "condition": "grpclock.value == true && clockcolor.value == 'custom'"
+      },
+      "clockcard": {
+        "order": 186,
+        "text": "ui_lirica_clockcard",
+        "type": "combo",
+        "value": "none",
+        "options": [
+          {
+            "label": "ui_lirica_clockcard_none",
+            "value": "none"
+          },
+          {
+            "label": "ui_lirica_clockcard_shadow",
+            "value": "shadow"
+          },
+          {
+            "label": "ui_lirica_clockcard_glass",
+            "value": "glass"
+          },
+          {
+            "label": "ui_lirica_clockcard_panel",
+            "value": "panel"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "clock24": {
+        "order": 187,
+        "text": "ui_lirica_clock24",
+        "type": "bool",
+        "value": true,
+        "condition": "grpclock.value == true"
+      },
+      "clockseconds": {
+        "order": 188,
+        "text": "ui_lirica_clockseconds",
+        "type": "bool",
+        "value": false,
+        "condition": "grpclock.value == true"
+      },
+      "clockblink": {
+        "order": 189,
+        "text": "ui_lirica_clockblink",
+        "type": "bool",
+        "value": true,
+        "condition": "grpclock.value == true"
+      },
+      "dateformat": {
+        "order": 190,
+        "text": "ui_lirica_dateformat",
+        "type": "combo",
+        "value": "long",
+        "options": [
+          {
+            "label": "ui_lirica_dateformat_long",
+            "value": "long"
+          },
+          {
+            "label": "ui_lirica_dateformat_short",
+            "value": "short"
+          },
+          {
+            "label": "ui_lirica_dateformat_numeric",
+            "value": "numeric"
+          },
+          {
+            "label": "ui_lirica_dateformat_none",
+            "value": "none"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "greeting": {
+        "order": 191,
+        "text": "ui_lirica_greeting",
+        "type": "combo",
+        "value": "none",
+        "options": [
+          {
+            "label": "ui_lirica_greeting_none",
+            "value": "none"
+          },
+          {
+            "label": "ui_lirica_greeting_auto",
+            "value": "auto"
+          },
+          {
+            "label": "ui_lirica_greeting_custom",
+            "value": "custom"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "greetingtext": {
+        "order": 192,
+        "text": "ui_lirica_greetingtext",
+        "type": "textinput",
+        "value": "",
+        "condition": "grpclock.value == true && greeting.value == 'custom'"
+      },
+      "lastplayed": {
+        "order": 193,
+        "text": "ui_lirica_lastplayed",
+        "type": "bool",
+        "value": true,
+        "condition": "grpclock.value == true"
+      },
+      "idlebg": {
+        "order": 194,
+        "text": "ui_lirica_idlebg",
+        "type": "combo",
+        "value": "same",
+        "options": [
+          {
+            "label": "ui_lirica_idlebg_same",
+            "value": "same"
+          },
+          {
+            "label": "ui_lirica_idlebg_scene",
+            "value": "scene"
+          },
+          {
+            "label": "ui_lirica_idlebg_image",
+            "value": "image"
+          },
+          {
+            "label": "ui_lirica_idlebg_video",
+            "value": "video"
+          },
+          {
+            "label": "ui_lirica_idlebg_folder",
+            "value": "folder"
+          },
+          {
+            "label": "ui_lirica_idlebg_solid",
+            "value": "solid"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "idlescene": {
+        "order": 195,
+        "text": "ui_lirica_idlescene",
+        "type": "combo",
+        "value": "nightsky",
+        "options": [
+          {
+            "label": "Synthwave",
+            "value": "synthwave"
+          },
+          {
+            "label": "ui_lirica_idlescene_nightsky",
+            "value": "nightsky"
+          },
+          {
+            "label": "Aurora",
+            "value": "aurora"
+          },
+          {
+            "label": "Sakura",
+            "value": "sakura"
+          },
+          {
+            "label": "ui_lirica_idlescene_rain",
+            "value": "rain"
+          },
+          {
+            "label": "ui_lirica_idlescene_animesky",
+            "value": "animesky"
+          },
+          {
+            "label": "ui_lirica_idlescene_neoncity",
+            "value": "neoncity"
+          },
+          {
+            "label": "ui_lirica_idlescene_ocean",
+            "value": "ocean"
+          },
+          {
+            "label": "ui_lirica_idlescene_koi",
+            "value": "koi"
+          }
+        ],
+        "condition": "grpclock.value == true && idlebg.value == 'scene'"
+      },
+      "idleimage": {
+        "order": 196,
+        "text": "ui_lirica_idleimage",
+        "type": "file",
+        "value": "",
+        "fileType": "image",
+        "condition": "grpclock.value == true && idlebg.value == 'image'"
+      },
+      "idlevideo": {
+        "order": 197,
+        "text": "ui_lirica_idlevideo",
+        "type": "file",
+        "value": "",
+        "fileType": "video",
+        "condition": "grpclock.value == true && idlebg.value == 'video'"
+      },
+      "idlefolder": {
+        "order": 198,
+        "text": "ui_lirica_idlefolder",
+        "type": "directory",
+        "value": "",
+        "mode": "ondemand",
+        "condition": "grpclock.value == true && idlebg.value == 'folder'"
+      },
+      "idlecolor": {
+        "order": 199,
+        "text": "ui_lirica_idlecolor",
+        "type": "color",
+        "value": "0.03 0.03 0.05",
+        "condition": "grpclock.value == true && idlebg.value == 'solid'"
+      },
+      "idleblur": {
+        "order": 200,
+        "text": "ui_lirica_idleblur",
+        "type": "slider",
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpclock.value == true"
+      },
+      "idledim": {
+        "order": 201,
+        "text": "ui_lirica_idledim",
+        "type": "slider",
+        "value": 20,
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpclock.value == true"
+      },
+      "idleafter": {
+        "order": 202,
+        "text": "ui_lirica_idleafter",
+        "type": "slider",
+        "value": 3,
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpclock.value == true"
+      },
+      "miniclock": {
+        "order": 203,
+        "text": "ui_lirica_miniclock",
+        "type": "combo",
+        "value": "off",
+        "options": [
+          {
+            "label": "ui_lirica_miniclock_off",
+            "value": "off"
+          },
+          {
+            "label": "ui_lirica_miniclock_tl",
+            "value": "tl"
+          },
+          {
+            "label": "ui_lirica_miniclock_tr",
+            "value": "tr"
+          },
+          {
+            "label": "ui_lirica_miniclock_bl",
+            "value": "bl"
+          },
+          {
+            "label": "ui_lirica_miniclock_br",
+            "value": "br"
+          }
+        ],
+        "condition": "grpclock.value == true"
+      },
+      "grpsync": {
+        "order": 204,
+        "text": "ui_lirica_grpsync",
+        "type": "bool",
+        "value": false
+      },
+      "syncoffset": {
+        "order": 205,
+        "text": "ui_lirica_syncoffset",
+        "type": "slider",
+        "value": 0,
+        "min": -3000,
+        "max": 3000,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpsync.value == true"
+      },
+      "songsync": {
+        "order": 206,
+        "text": "ui_lirica_songsync",
+        "type": "combo",
+        "value": "hover",
+        "options": [
+          {
+            "label": "ui_lirica_songsync_hover",
+            "value": "hover"
+          },
+          {
+            "label": "ui_lirica_songsync_off",
+            "value": "off"
+          }
+        ],
+        "condition": "grpsync.value == true"
+      },
+      "leadtime": {
+        "order": 207,
+        "text": "ui_lirica_leadtime",
+        "type": "slider",
+        "value": 200,
+        "min": 0,
+        "max": 800,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpsync.value == true"
+      },
+      "grpadv": {
+        "order": 208,
+        "text": "ui_lirica_grpadv",
+        "type": "bool",
+        "value": false
+      },
+      "onlinelookup": {
+        "order": 209,
+        "text": "ui_lirica_onlinelookup",
+        "type": "bool",
+        "value": true,
+        "condition": "grpadv.value == true"
+      },
+      "videominutes": {
+        "order": 210,
+        "text": "ui_lirica_videominutes",
+        "type": "slider",
+        "value": 15,
+        "min": 0,
+        "max": 120,
+        "step": 1,
+        "fraction": false,
+        "editable": true,
+        "condition": "grpadv.value == true"
+      },
+      "source": {
+        "order": 211,
+        "text": "ui_lirica_source",
+        "type": "combo",
+        "value": "auto",
+        "options": [
+          {
+            "label": "Windows",
+            "value": "auto"
+          },
+          {
+            "label": "Demo",
+            "value": "demo"
+          }
+        ],
+        "condition": "grpadv.value == true"
+      },
+      "debug": {
+        "order": 212,
+        "text": "ui_lirica_debug",
+        "type": "bool",
+        "value": false,
+        "condition": "grpadv.value == true"
+      }
+    }
+  },
+  "preview": "preview.gif",
+  "tags": [
+    "Music"
+  ],
+  "title": "Lírica — synced lyrics",
+  "type": "web",
+  "visibility": "private"
+}
